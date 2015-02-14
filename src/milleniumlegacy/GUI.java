@@ -22,6 +22,7 @@ public class GUI {
 		f.pack();
 		f.setSize(825, 625);
 		f.setVisible(true);
+		draw.start();
 	}
 	
 }
