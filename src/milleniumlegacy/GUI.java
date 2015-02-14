@@ -2,6 +2,7 @@ package milleniumlegacy;
 
 import java.awt.Component;
 import java.awt.Graphics;
+import java.util.HashMap;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -20,7 +21,6 @@ public class GUI {
 				f.pack();
 				f.setSize(825, 625);
 				f.setVisible(true);
-				Algorithm.research("hi","bye");
-	
+				Algorithm.research();
 	}
 }
