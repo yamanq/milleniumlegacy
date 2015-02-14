@@ -15,7 +15,7 @@ public class GUI {
 	public static void createAndShowGUI()
 	{
 		JFrame f = new JFrame("Millenium Legacy");
-		DrawingFrame  draw = new DrawingFrame();
+		MainGame  draw = new MainGame();
 		f.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		f.getContentPane().add(draw);
 		f.setResizable(false);
