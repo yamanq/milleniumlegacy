@@ -1,5 +1,6 @@
 package milleniumlegacy;
 
+import java.awt.Component;
 import java.awt.Graphics;
 
 import javax.imageio.ImageIO;
@@ -19,5 +20,7 @@ public class GUI {
 				f.pack();
 				f.setSize(825, 625);
 				f.setVisible(true);
+				Algorithm.research("hi","bye");
+	
 	}
 }
